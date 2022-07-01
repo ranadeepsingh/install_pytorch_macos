@@ -58,3 +58,10 @@ Github: https://github.com/ranadeepsingh
 device = torch.device("mps")
 ```
 ![image info](https://media.makeameme.org/created/the-power-is-5b5a12.jpg)
+
+**EXTRA**
+To link your virtual environment with jupyter notebook:
+```
+conda install -c anaconda ipykernel
+python -m ipykernel install --user --name=<venv_name>
+```
