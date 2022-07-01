@@ -1,7 +1,7 @@
 ##### Contact for Issues/Updates
-Email: teamraar@gmail.com
-Author: Ranadeep Singh
-Github: https://github.com/ranadeepsingh
+Email: teamraar@gmail.com \
+Author: Ranadeep Singh \
+Github: https://github.com/ranadeepsingh 
 
 
 # Steps to install pytorch for Arm Macs:
