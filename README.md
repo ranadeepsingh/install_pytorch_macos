@@ -60,8 +60,12 @@ device = torch.device("mps")
 ![image info](https://media.makeameme.org/created/the-power-is-5b5a12.jpg)
 
 **EXTRA**
-To link your virtual environment with jupyter notebook:
+1. To link your virtual environment with jupyter notebook:
 ```
 conda install -c anaconda ipykernel
 python -m ipykernel install --user --name=<venv_name>
+```
+2. To run ipynb Jupyter Notebooks in VS Code, install the "Jupyter" Extension with version: 
+```
+v2022.4.1001271738
 ```
