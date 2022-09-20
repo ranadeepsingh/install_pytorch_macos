@@ -1,5 +1,5 @@
-##### Contact for Issues/Updates
-Email: teamraar@gmail.com \
+For Issues/Updates: Open an Issue Request
+
 Author: Ranadeep Singh \
 Github: https://github.com/ranadeepsingh 
 
