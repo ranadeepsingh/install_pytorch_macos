@@ -68,3 +68,22 @@ python -m ipykernel install --user --name=<venv_name>
 2. To run ipynb Jupyter Notebooks in VS Code, install the "Jupyter" Extension.
 
 3. If your ipynb Kernel keeps failing in VS Code, [clean uninstall your VS Code](https://code.visualstudio.com/docs/setup/uninstall#_clean-uninstall) and reinstall it.
+
+4. Running BERT and Transformers:
+    4.1 Install Rust
+    ```
+    curl https://sh.rustup.rs -sSf | sh
+    ```
+    4.2 Get Xcode Command Line Tools
+
+    4.2.1 Agree to Xcode terms
+    ```
+    sudo xcodebuild -license
+    ```
+    4.2.2 Download [here](https://developer.apple.com/download/all/?q=command%20line%20tools) and install the dmg file
+    4.3 Install Transformers
+    ```
+    python -m pip install wheel
+    python -m pip install transformers==2.4.1
+    ```
+
