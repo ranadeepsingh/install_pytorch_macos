@@ -87,3 +87,9 @@ python -m ipykernel install --user --name=<venv_name>
     python -m pip install transformers==2.4.1
     ```
 
+5. Running pytroch_lighting. You will need [brew](https://brew.sh) package manager for this.
+    ```
+    pip install pytorch-lightning
+    brew install protobuf
+    ```
+
